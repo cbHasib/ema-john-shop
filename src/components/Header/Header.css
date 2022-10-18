@@ -1,19 +1,36 @@
-.header{
-    height: 80px;
-    background-color: #1C2B35;
+nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding-left: 140px;
-    padding-right: 140px;
+    align-items: center;
+    box-shadow: var(--nav-shadow);
+    padding: 10px 5%;
+    background-color: var(--dark-navyBlue-color);
+    z-index: 999;
 }
 
-.header a{
-    color: #FFFFFF;
+.site-identity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    font-size: 17px;
-    margin-left: 36px;
 }
-.header a:hover{
-    color: orange;
+
+.site-identity img{
+    height: 50px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    font-size: 17px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+.menu a:hover{
+    color: var(--primary-color);
 }
